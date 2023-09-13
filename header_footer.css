@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     
 }
@@ -95,9 +96,8 @@ ul li:last-child {
 
 
 footer {
-    position: absolute;
+    border-top: solid 1px black;
     bottom: 0;
-    background-color: yellow;
     width: 100%;
-    height: 80px;
+    height: 20%;
 }
