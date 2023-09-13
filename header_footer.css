@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+}
+
+
+header {
+    box-shadow: 0px 3px 6px #00000029;
+    width: 100%;
+    background-color: white;
+}
+
+#Titre {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    
+    
+}
+
+#Titre h1:first-child {
+    justify-self: center;
+    grid-column: 2;
+}
+
+#logo {
+    justify-self: center;
+    grid-column: 1;
+    width: 80px;
+    height: 80px;
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 50px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.button:hover {
+    color: aliceblue;
+}
+
+
+ul li:hover {
+    background-color: rgb(196, 229, 240);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 5%;
+    font-size: 150%;
+    
+
+    border: solid 1.5px rgb(255, 255, 255);
+}
+ul li {
+    border-radius: 5%;
+    border: solid 1.5px white;
+}
+
+ul {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+    grid-template-rows: 25px;
+    list-style:none
+
+}
+
+ul  li:first-child {
+    
+    text-align: center;
+    grid-column: 1;
+}
+
+ul li:nth-child(2) {
+    text-align: center;
+    grid-column: 2;
+}
+
+ul li:nth-child(3) {
+    text-align: center;
+    grid-column: 3;  
+}
+
+ul li:last-child {
+    text-align: center;
+    grid-column: 4;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: yellow;
+    width: 100%;
+    height: 80px;
+}
