@@ -1,0 +1,18 @@
+body {
+    
+}
+fieldset {
+    display: flexbox;
+    justify-content: center;
+    background-color: lightgray;
+    margin-right: 60%;
+}
+legend {
+    justify-content: center;
+    font-size:larger;
+}
+fieldset :
+}
+
+
+
